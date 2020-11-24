@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="page.master.cs" Inherits="page" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <style type="text/css">
+        .style1
+        {
+            text-align: left;
+        }
+    </style>
+    
+    </head>
+<body>
+    <form id="form1" runat="server">
+
+<div id="header">
+	<div id="logo">
+		<h1><font size="6" face="Verdana"><a href="#">Payroll</a></font></h1>
+		
+	</div>
+</div>
+<!-- end #header -->
+<div id="page">
+	<!-- end #content -->
+	<div id="sidebar" align="center">
+		<div id="menu" class="box">
+	     <p class="style1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+                  <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            &nbsp;
+            
+<asp:Button ID="Button1" runat="server" onclick="Button1_Click" Text="Logout" />      &nbsp;
+        
+                        </p>
+                <p class="style1"> <asp:HyperLink ID="HyperLink1" runat="server" 
+                 NavigateUrl="~/Welcome.aspx">Home</asp:HyperLink>
+        &nbsp;&nbsp;&nbsp;
+                            <asp:HyperLink ID="HyperLink9" runat="server" 
+                 NavigateUrl="~/secondhm.aspx">Services</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <asp:HyperLink ID="HyperLink8" runat="server" 
+                 NavigateUrl="~/cont.aspx">Contact Us</asp:HyperLink>
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/Developer.aspx">About Us</asp:HyperLink>
+        
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+                        </p>
+                <p class="style1"> &nbsp;</p>
+		</div>
+	</div>
+</div>
+		<div style="clear: both;">&nbsp;</div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   
+    </form>
+
+<p>
+    &nbsp;</p>
+<p>
+    <font color="black">Copyright Protected By Smile Technologies</font>
+    <br />
+    <font color="black">@GUMCA 2014-15</font>
+    
+        
+        
+        
+</p>
+
+</body>
+</html>
